@@ -2,27 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progress Bar Example | Harsh Patel</title>
   </head>
   <body>
-    <h2>
-      Give any number to this input it should be greater then 0 and less then
-      100
-    </h2>
-    <input
-      type="number"
-      id="numberInput"
-      min="1"
-      max="100"
-      step="2"
-      value="0"
-    />
-    <div id="progress-bar"></div>
-    <input type="range" id="slider" step="2" defaultValue="0" oninput="siderText" onchange="siderText" />
-    <p>Progress Bar Value : <span id="slider-text">0</span></p>
-    <h2>See the output above</h2>
-    <script src="script.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/App.ts"></script>
+    
   </body>
+  
 </html>
