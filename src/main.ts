@@ -24,4 +24,5 @@ appDiv!.innerHTML = `
     Progress Bar Value : <span id="slider-text">0</span>
   </p>
   <h2>See the output above</h2>
+  <p>Made by Harsh with ❤️</p>
 `;
